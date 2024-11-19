@@ -1,0 +1,168 @@
+#EpicItems config panel
+
+#---------------------------------
+#|                               |
+#|             Tools             |
+#|                               |
+#---------------------------------
+
+#Should EpicItems check if you have the following plugins installed?
+CheckForNoteBlockAPI: false
+CheckForVault: false
+
+#Logs stats for plugins
+bStats: true
+
+#---------------------------------
+#|                               |
+#|             Items             |
+#|                               |
+#---------------------------------
+
+#Should the evoker mob drop the Evoker staff?
+evokerDrop: true
+
+#Max block range for the Evoker Staff ability
+evokerStaffMaxRange: 10 #Cannot contain decimals, only whole numbers
+
+#How far should the Grappling hook pull you forward?
+pullVelocityOfGrapplingHook: 0.3
+
+#Should the grappling hook give speed?
+grapplingHookSpeed: true
+
+#Which bows should have the quiver? (Infinite arrows)
+EndermanBowQuiver: true
+ExplosiveBowQuiver: true
+RunaansBowQuiver: true
+
+#How many blocks forward should you teleport when using the Enderman Sword
+endermanSwordTeleportDistance: 8
+
+#Explosion power of the Ace Sword
+aceSwordExplosivePower: 4 #Warning! Very high numbers and decimals might cause problems, try not to go higher than 10.
+
+#Should the wither and ender dragon drop the Explosive bow?
+witherAndEnderDragonDrop: true
+
+#How long should the Stealth Strike work for (s)?
+stealthStrikeTime: 50
+
+#How big of an explosion should the Fireball Rod create?
+fireballRodExplosionPower: 3
+
+#---------------------------------
+#|                               |
+#|           Damage              |
+#|                               |
+#---------------------------------
+
+#Set the damage values for items (decimal numbers/float)
+
+endermanSwordDamage: 3.5
+aceSwordDamage: 1.0
+rpgDamage: 1.5
+bonemerangDamage: 20.0
+runaansBowDamage: 5.0
+warriorsAxeDamage: 15.0
+fireballRodDamage: 7.5
+
+#---------------------------------
+#|                               |
+#|         Crafting              |
+#|                               |
+#---------------------------------
+
+#Can players craft the items?
+
+#This option overrides all crafting options below
+mainCraft: true
+
+EndermanSwordCraft: true
+AceSwordCraft: true
+RocketLauncherCraft: true
+BonemerangCraft: true
+GrapplingHookCraft: true
+EndermanBowCraft: true
+ExplosiveBowCraft: true
+RunaansBowCraft: true
+EvokerStaffCraft: true
+AirStrikeCraft: true
+KnockBackStickCraft: true
+HealingSwordCraft: true
+UltraDrillCraft: true
+WarriorAxe: true
+FireballRod: true
+
+#---------------------------------
+#|                               |
+#|         Cooldown              |
+#|                               |
+#---------------------------------
+
+# All numbers are in seconds (int)
+
+AceSwordCooldown: 1
+BonemerangCooldown: 0
+EndermanBowCooldown: 0
+EndermanSwordCooldown: 0
+EvokerStaffCooldown: 1
+ExplosiveBowCooldown: 0
+GrapplingHookCooldown: 2
+RocketLauncherCooldown: 5
+RunaansBowCooldown: 0
+HealingSwordCooldown: 10
+AirstrikeCooldown: 20
+UltraDrillCooldown: 0
+StealthStrikeCooldown: 100
+WarriorAxeCooldown: 1
+FireballRodCooldown: 1
+
+#---------------------------------
+#|                               |
+#|       Enabled Items           |
+#|                               |
+#---------------------------------
+
+AceSword: true
+Bonemerang: true
+EndermanBow: true
+EndermanSword: true
+EvokerStaff: true
+ExplosiveBow: true
+GrapplingHook: true
+RocketLauncher: true
+RunaansBow: true
+Airstrike: true
+HealingSword: true
+StealthStrike: true
+
+#---------------------------------
+#|                               |
+#|          Permissions          |
+#|                               |
+#---------------------------------
+
+# 'epicitems.give' allows users to use the 'give' EpicItem command
+# 'epicitems.main' allows users to use all EpicItems commands
+
+#---------------------------------
+#|                               |
+#|             MySQL             |
+#| Doesn't currently do anything |
+#|                               |
+#---------------------------------
+
+mySQLenabled: false
+
+host: "localhost"
+port: "3306"
+database: "database name here"
+username: "root"
+password: "password here"
+
+useSSL: "false"
+
+#------------------------------------------------------
+
+message: " X: %x% Y: %y% Z: %z%" # DO NOT TOUCH!!! (Unless you understand what it does)
